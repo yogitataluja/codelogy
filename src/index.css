@@ -115,10 +115,6 @@
     font-weight: bolder !important;
 }
 
-/* footer for contact */
-.conta #mrg{
-    margin-top:5rem !important;
-}
 
 
 /* responsive styling */
@@ -161,9 +157,19 @@
 }
 
 }
-/* 
-@media  (max-width:360px){
-    .card img{
-        ;
-    }
-} */
+
+/* Error page */
+
+.errpag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.err_container{
+    text-align: center;
+}
+
+/* footer */
